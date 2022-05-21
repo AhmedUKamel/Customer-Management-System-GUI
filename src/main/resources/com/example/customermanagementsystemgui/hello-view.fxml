@@ -16,7 +16,7 @@
         <tabs>
             <Tab text="Array List implementation">
                <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #909497;">
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #909497; -fx-background-radius: 15;">
                      <children>
                         <TableView fx:id="tableView_al" layoutX="63.0" layoutY="7.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="100.0">
                            <columns>
@@ -28,28 +28,28 @@
                               <TableColumn fx:id="accumulated_column_al" prefWidth="137.60003662109375" text="Accumulated bill" />
                            </columns>
                         </TableView>
-                        <Button layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#choose_file_al" prefHeight="30.0" prefWidth="100.0" text="Choose file" />
-                        <Button layoutX="10.0" layoutY="57.0" mnemonicParsing="false" onAction="#save_file_al" prefHeight="30.0" prefWidth="60.0" text="Save file" />
-                        <AnchorPane layoutX="122.0" layoutY="12.0" prefHeight="80.0" prefWidth="646.0" style="-fx-background-color: #eaeded;">
+                        <Button layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#choose_file_al" prefHeight="35.0" prefWidth="100.0" style="-fx-background-radius: 5;" text="Choose file" />
+                        <Button layoutX="10.0" layoutY="55.0" mnemonicParsing="false" onAction="#save_file_al" prefHeight="35.0" prefWidth="60.0" style="-fx-background-radius: 5;" text="Save file" />
+                        <AnchorPane layoutX="122.0" layoutY="12.0" prefHeight="80.0" prefWidth="646.0" style="-fx-background-color: #eaeded; -fx-background-radius: 5;">
                            <children>
-                              <Button layoutX="17.0" layoutY="5.0" mnemonicParsing="false" onAction="#add_customer_action_al" prefHeight="30.0" prefWidth="110.0" text="Add customer" AnchorPane.leftAnchor="17.0" />
-                              <Button layoutX="142.0" layoutY="5.0" mnemonicParsing="false" onAction="#delete_customer_action_al" prefHeight="30.0" prefWidth="110.0" text="Delete customer" AnchorPane.leftAnchor="142.0" />
-                              <Button layoutX="267.0" layoutY="5.0" mnemonicParsing="false" onAction="#update_customer_action_al" prefHeight="30.0" prefWidth="110.0" text="Update customer" AnchorPane.leftAnchor="267.0" />
-                              <Button layoutX="392.0" layoutY="5.0" mnemonicParsing="false" onAction="#clear_customer_action_al" prefHeight="30.0" prefWidth="110.0" text="Clear customers" AnchorPane.leftAnchor="392.0" />
-                              <Button layoutX="517.0" layoutY="5.0" mnemonicParsing="false" onAction="#sort_customers_action_al" prefHeight="30.0" prefWidth="110.0" text="Sort customers" AnchorPane.leftAnchor="517.0" />
-                              <Button layoutX="17.0" layoutY="45.0" mnemonicParsing="false" onAction="#linear_search_action_al" prefHeight="30.0" prefWidth="110.0" text="Linear search" />
-                              <Button layoutX="142.0" layoutY="45.0" mnemonicParsing="false" onAction="#binary_search_action_al" prefHeight="30.0" prefWidth="110.0" text="Binary search" />
-                              <TextField fx:id="search_text_field_al" layoutX="267.0" layoutY="45.0" prefHeight="30.0" prefWidth="360.0" />
+                              <Button layoutX="17.0" layoutY="5.0" mnemonicParsing="false" onAction="#add_customer_action_al" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Add customer" AnchorPane.leftAnchor="17.0" />
+                              <Button layoutX="142.0" layoutY="5.0" mnemonicParsing="false" onAction="#delete_customer_action_al" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Delete customer" AnchorPane.leftAnchor="142.0" />
+                              <Button layoutX="267.0" layoutY="5.0" mnemonicParsing="false" onAction="#update_customer_action_al" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Update customer" AnchorPane.leftAnchor="267.0" />
+                              <Button layoutX="392.0" layoutY="5.0" mnemonicParsing="false" onAction="#clear_customer_action_al" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Clear customers" AnchorPane.leftAnchor="392.0" />
+                              <Button layoutX="517.0" layoutY="5.0" mnemonicParsing="false" onAction="#sort_customers_action_al" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Sort customers" AnchorPane.leftAnchor="517.0" />
+                              <Button layoutX="17.0" layoutY="45.0" mnemonicParsing="false" onAction="#linear_search_action_al" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Linear search" />
+                              <Button layoutX="142.0" layoutY="45.0" mnemonicParsing="false" onAction="#binary_search_action_al" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Binary search" />
+                              <TextField fx:id="search_text_field_al" layoutX="267.0" layoutY="45.0" prefHeight="30.0" prefWidth="360.0" promptText="Enter customer name or contract ID" style="-fx-background-radius: 5;" />
                            </children>
                         </AnchorPane>
-                        <Button layoutX="79.0" layoutY="57.0" mnemonicParsing="false" onAction="#browse_al" prefHeight="30.0" prefWidth="30.0" text="..." />
+                        <Button layoutX="79.0" layoutY="55.0" mnemonicParsing="false" onAction="#browse_al" prefHeight="35.0" prefWidth="30.0" style="-fx-background-radius: 5;" text="..." />
                      </children>
                   </AnchorPane>
                </content>
             </Tab>
             <Tab text="Linked List implementation">
                <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #909497;">
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #909497; -fx-background-radius: 15;">
                      <children>
                         <TableView fx:id="tableView_ll" layoutX="63.0" layoutY="7.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="100.0">
                            <columns>
@@ -61,21 +61,21 @@
                               <TableColumn fx:id="accumulated_column_ll" prefWidth="137.60003662109375" text="Accumulated bill" />
                            </columns>
                         </TableView>
-                        <Button layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#choose_file_ll" prefHeight="30.0" prefWidth="100.0" text="Choose file" />
-                        <Button layoutX="10.0" layoutY="57.0" mnemonicParsing="false" onAction="#save_file_ll" prefHeight="30.0" prefWidth="60.0" text="Save file" />
-                        <AnchorPane layoutX="122.0" layoutY="12.0" prefHeight="80.0" prefWidth="646.0" style="-fx-background-color: #eaeded;">
+                        <Button layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#choose_file_ll" prefHeight="35.0" prefWidth="100.0" style="-fx-background-radius: 5;" text="Choose file" />
+                        <Button layoutX="10.0" layoutY="55.0" mnemonicParsing="false" onAction="#save_file_ll" prefHeight="35.0" prefWidth="60.0" style="-fx-background-radius: 5;" text="Save file" />
+                        <AnchorPane layoutX="122.0" layoutY="12.0" prefHeight="80.0" prefWidth="646.0" style="-fx-background-color: #eaeded; -fx-background-radius: 5;">
                            <children>
-                              <Button layoutX="17.0" layoutY="5.0" mnemonicParsing="false" onAction="#add_customer_action_ll" prefHeight="30.0" prefWidth="110.0" text="Add customer" AnchorPane.leftAnchor="17.0" />
-                              <Button layoutX="142.0" layoutY="5.0" mnemonicParsing="false" onAction="#delete_customer_action_ll" prefHeight="30.0" prefWidth="110.0" text="Delete customer" AnchorPane.leftAnchor="142.0" />
-                              <Button layoutX="267.0" layoutY="5.0" mnemonicParsing="false" onAction="#update_customer_action_ll" prefHeight="30.0" prefWidth="110.0" text="Update customer" AnchorPane.leftAnchor="267.0" />
-                              <Button layoutX="392.0" layoutY="5.0" mnemonicParsing="false" onAction="#clear_customer_action_ll" prefHeight="30.0" prefWidth="110.0" text="Clear customers" AnchorPane.leftAnchor="392.0" />
-                              <Button layoutX="517.0" layoutY="5.0" mnemonicParsing="false" onAction="#sort_customers_action_ll" prefHeight="30.0" prefWidth="110.0" text="Sort customers" AnchorPane.leftAnchor="517.0" />
-                              <Button layoutX="17.0" layoutY="45.0" mnemonicParsing="false" onAction="#linear_search_action_ll" prefHeight="30.0" prefWidth="110.0" text="Linear search" />
-                              <Button layoutX="142.0" layoutY="45.0" mnemonicParsing="false" onAction="#binary_search_action_ll" prefHeight="30.0" prefWidth="110.0" text="Binary search" />
-                              <TextField fx:id="search_text_field_ll" layoutX="267.0" layoutY="45.0" prefHeight="30.0" prefWidth="360.0" />
+                              <Button layoutX="17.0" layoutY="5.0" mnemonicParsing="false" onAction="#add_customer_action_ll" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Add customer" AnchorPane.leftAnchor="17.0" />
+                              <Button layoutX="142.0" layoutY="5.0" mnemonicParsing="false" onAction="#delete_customer_action_ll" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Delete customer" AnchorPane.leftAnchor="142.0" />
+                              <Button layoutX="267.0" layoutY="5.0" mnemonicParsing="false" onAction="#update_customer_action_ll" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Update customer" AnchorPane.leftAnchor="267.0" />
+                              <Button layoutX="392.0" layoutY="5.0" mnemonicParsing="false" onAction="#clear_customer_action_ll" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Clear customers" AnchorPane.leftAnchor="392.0" />
+                              <Button layoutX="517.0" layoutY="5.0" mnemonicParsing="false" onAction="#sort_customers_action_ll" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Sort customers" AnchorPane.leftAnchor="517.0" />
+                              <Button layoutX="17.0" layoutY="45.0" mnemonicParsing="false" onAction="#linear_search_action_ll" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Linear search" />
+                              <Button layoutX="142.0" layoutY="45.0" mnemonicParsing="false" onAction="#binary_search_action_ll" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 5;" text="Binary search" />
+                              <TextField fx:id="search_text_field_ll" layoutX="267.0" layoutY="45.0" prefHeight="30.0" prefWidth="360.0" promptText="Enter customer name or contract ID" style="-fx-background-radius: 5;" />
                            </children>
                         </AnchorPane>
-                        <Button layoutX="79.0" layoutY="57.0" mnemonicParsing="false" onAction="#browse_ll" prefHeight="30.0" prefWidth="30.0" text="..." />
+                        <Button layoutX="79.0" layoutY="55.0" mnemonicParsing="false" onAction="#browse_ll" prefHeight="35.0" prefWidth="30.0" style="-fx-background-radius: 5;" text="..." />
                      </children>
                   </AnchorPane>
                </content>

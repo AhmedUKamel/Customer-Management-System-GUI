@@ -43,18 +43,18 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <TextField fx:id="name" layoutX="20.0" layoutY="103.0" prefHeight="26.0" prefWidth="194.0" />
-      <TextField fx:id="contract" layoutX="291.0" layoutY="103.0" prefHeight="26.0" prefWidth="194.0" />
-      <TextField fx:id="nationality" layoutX="20.0" layoutY="163.0" prefHeight="26.0" prefWidth="194.0" />
-      <TextField fx:id="phone" layoutX="291.0" layoutY="162.0" prefHeight="26.0" prefWidth="194.0" />
-      <TextField fx:id="current" layoutX="20.0" layoutY="223.0" prefHeight="26.0" prefWidth="194.0" />
-      <TextField fx:id="accumulated" layoutX="291.0" layoutY="223.0" prefHeight="26.0" prefWidth="194.0" />
-      <Button layoutX="20.0" layoutY="275.0" mnemonicParsing="false" onAction="#update_button" prefHeight="35.0" prefWidth="194.0" text="Update" textFill="#34f737">
+      <TextField fx:id="name" layoutX="20.0" layoutY="103.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-radius: 5;" />
+      <TextField fx:id="contract" layoutX="291.0" layoutY="103.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-radius: 5;" />
+      <TextField fx:id="nationality" layoutX="20.0" layoutY="163.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-radius: 5;" />
+      <TextField fx:id="phone" layoutX="291.0" layoutY="162.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-radius: 5;" />
+      <TextField fx:id="current" layoutX="20.0" layoutY="223.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-radius: 5;" />
+      <TextField fx:id="accumulated" layoutX="291.0" layoutY="223.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-radius: 5;" />
+      <Button layoutX="20.0" layoutY="275.0" mnemonicParsing="false" onAction="#update_button" prefHeight="35.0" prefWidth="194.0" style="-fx-background-radius: 5;" text="Update" textFill="#34f737">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button layoutX="291.0" layoutY="275.0" mnemonicParsing="false" onAction="#cancel_button" prefHeight="35.0" prefWidth="194.0" text="Cancel" textFill="RED">
+      <Button layoutX="291.0" layoutY="275.0" mnemonicParsing="false" onAction="#cancel_button" prefHeight="35.0" prefWidth="194.0" style="-fx-background-radius: 5;" text="Cancel" textFill="RED">
          <font>
             <Font size="18.0" />
          </font>

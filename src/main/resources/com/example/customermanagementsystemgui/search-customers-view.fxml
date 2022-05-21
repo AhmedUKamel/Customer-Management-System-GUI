@@ -18,13 +18,13 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="25.0" layoutY="122.0" prefHeight="40.0" prefWidth="451.0" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
-      <Button layoutX="25.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text=" Linear search" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="25.0">
+      <TextField layoutX="25.0" layoutY="122.0" prefHeight="40.0" prefWidth="451.0" style="-fx-background-radius: 5;" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
+      <Button layoutX="25.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text=" Linear search" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="25.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="275.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Binary search" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="25.0">
+      <Button layoutX="275.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Binary search" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="25.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
