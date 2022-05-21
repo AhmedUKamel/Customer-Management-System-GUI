@@ -23,6 +23,8 @@ public class HelloController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         setup_table_ll();
         setup_table_al();
+        search_text_field_al.textProperty().addListener((observable, oldValue, newValue)-> {load_array_list();});
+        search_text_field_ll.textProperty().addListener((observable, oldValue, newValue)-> {load_linked_list();});
     }
     // FXML Data fields
     @FXML
