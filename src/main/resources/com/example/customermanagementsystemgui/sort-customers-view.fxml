@@ -17,22 +17,22 @@
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="insertion_name" layoutX="26.0" layoutY="126.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Insertion (Name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
+      <Button fx:id="insertion_name" layoutX="25.0" layoutY="117.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Insertion (Name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="selection_name" layoutX="26.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Selection (name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
+      <Button fx:id="selection_name" layoutX="25.0" layoutY="161.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Selection (name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="merge_name" layoutX="26.0" layoutY="227.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Merge (Name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
+      <Button fx:id="merge_name" layoutX="25.0" layoutY="205.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Merge (Name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="heap_name" layoutX="26.0" layoutY="277.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Heap (Name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
+      <Button fx:id="heap_name" layoutX="25.0" layoutY="249.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Heap (Name)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.leftAnchor="25.0">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
@@ -42,22 +42,27 @@
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="insertion_id" layoutX="276.0" layoutY="126.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Insertion (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
+      <Button fx:id="insertion_id" layoutX="275.0" layoutY="117.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Insertion (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="selection_id" layoutX="276.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Selection (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
+      <Button fx:id="selection_id" layoutX="275.0" layoutY="161.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Selection (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="merge_id" layoutX="276.0" layoutY="227.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Merge (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
+      <Button fx:id="merge_id" layoutX="275.0" layoutY="205.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Merge (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="heap_id" layoutX="276.0" layoutY="277.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Heap (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
+      <Button fx:id="heap_id" layoutX="275.0" layoutY="249.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 5;" text="Heap (ID)" textAlignment="CENTER" textFill="#634d4d" AnchorPane.rightAnchor="25.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="reverse" layoutX="150.0" layoutY="298.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Reverse" textAlignment="CENTER" textFill="#634d4d">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>

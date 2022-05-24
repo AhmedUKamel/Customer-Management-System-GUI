@@ -32,6 +32,8 @@ public class sortCustomerController implements Initializable {
     private Button merge_id;
     @FXML
     private Button heap_id;
+    @FXML
+    private Button reverse;
     // Methods
     private void setup_sort_buttons_ll() {
         bubble_name.setOnAction(e-> {
@@ -59,11 +61,11 @@ public class sortCustomerController implements Initializable {
             close_window();
         });
         merge_name.setOnAction(e-> {
-            HelloController.linked_list.merge_sort();
+            HelloController.linked_list.setHead(HelloController.linked_list.merge_sort(HelloController.linked_list.getHead()));
             close_window();
         });
         merge_id.setOnAction(e-> {
-            HelloController.linked_list.merge_sort_for_id();
+            HelloController.linked_list.setHead(HelloController.linked_list.merge_sort_for_id(HelloController.linked_list.getHead()));
             close_window();
         });
         heap_name.setOnAction(e-> {
@@ -72,6 +74,10 @@ public class sortCustomerController implements Initializable {
         });
         heap_id.setOnAction(e-> {
             HelloController.linked_list.heap_sort_for_id();
+            close_window();
+        });
+        reverse.setOnAction(e-> {
+            HelloController.linked_list.reverse();
             close_window();
         });
     }
@@ -110,9 +116,14 @@ public class sortCustomerController implements Initializable {
         });
         heap_name.setOnAction(e-> {
             HelloController.array_list.heap_sort();
+            close_window();
         });
         heap_id.setOnAction(e-> {
             HelloController.array_list.heap_sort_for_id();
+            close_window();
+        });
+        reverse.setOnAction(e-> {
+            HelloController.array_list.reverse();
             close_window();
         });
     }

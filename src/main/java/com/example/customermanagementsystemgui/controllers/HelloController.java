@@ -112,8 +112,15 @@ public class HelloController implements Initializable {
                 for (int index = 0; index < linked_list.capacity(); index++)
                     writer.write(linked_list.get(index).line() + "\n");
                 writer.close();
-            } else
-                warning_window("No data to save", "I got it");
+            } else {
+                warning_window("No data to save, you will save empty file", "I got it");
+                DirectoryChooser directoryChooser = new DirectoryChooser();
+                Stage current_window = (Stage) tableView_ll.getScene().getWindow();
+                File selectedDirectory = directoryChooser.showDialog(current_window);
+                File file = new File(selectedDirectory + "\\Data.txt");
+                FileWriter writer = new FileWriter(file);
+                writer.close();
+            }
         } catch (Exception e) {
             System.out.println("ERROR WRITING FILE");
         }
@@ -267,8 +274,15 @@ public class HelloController implements Initializable {
                 for (int index = 0; index < array_list.capacity(); index++)
                     writer.write(array_list.get(index).line() + "\n");
                 writer.close();
-            } else
-                warning_window("No data to save", "I got it");
+            } else {
+                warning_window("No data to save, you will save empty file", "I got it");
+                DirectoryChooser directoryChooser = new DirectoryChooser();
+                Stage current_window = (Stage) tableView_al.getScene().getWindow();
+                File selectedDirectory = directoryChooser.showDialog(current_window);
+                File file = new File(selectedDirectory + "\\Data.txt");
+                FileWriter writer = new FileWriter(file);
+                writer.close();
+            }
         } catch (Exception e) {
             System.out.println("ERROR WRITING FILE");
         }
@@ -404,15 +418,12 @@ public class HelloController implements Initializable {
         Label label = new Label(warning_message);
         label.setFont(new Font("sans serif", 20));
         Button button = new Button(button_message);
-        button.setOnAction(e-> {
-            Stage current_window = (Stage) button.getScene().getWindow();
-            current_window.close();
-        });
+        button.setOnAction(e-> {window.close();});
         VBox  vBox  = new VBox(label, button);
         vBox.setAlignment(Pos.CENTER);
         Scene scene = new Scene(vBox);
         window.setScene(scene);
-        window.show();
+        window.showAndWait();
     }
     private void new_window(String loader_path, String title, int height, int width) {
         try {
@@ -422,8 +433,6 @@ public class HelloController implements Initializable {
             window.setTitle(title);
             window.setScene(scene);
             window.showAndWait();
-            load_linked_list();
-            load_array_list();
             window.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());

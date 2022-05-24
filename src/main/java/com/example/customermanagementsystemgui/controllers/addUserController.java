@@ -23,12 +23,12 @@ public class addUserController {
     // FXML Methods
     @FXML
     private void add_button() {
-        if(!name.getText().equals("") &&
-        !contract.getText().equals("") &&
-        !nationality.getText().equals("") &&
-        !phone.getText().equals("") &&
-        !accumulated.getText().equals("") &&
-        !current.getText().equals("")) {
+        if(!name.getText().isEmpty() &&
+        !contract.getText().isEmpty() &&
+        !nationality.getText().isEmpty() &&
+        !phone.getText().isEmpty() &&
+        !accumulated.getText().isEmpty() &&
+        !current.getText().isEmpty()) {
             if(is_array_list) {
                 if(HelloController.array_list.insert(load_text_fields()))
                     cancel_button();
